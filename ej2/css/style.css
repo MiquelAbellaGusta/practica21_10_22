@@ -11,3 +11,16 @@ body {
     font-size: 1em;
     background-color: #f8f7f2;
 }
+
+main img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: -12.5%;
+}
+
+main .hero {
+    height: 500px;
+    overflow: hidden;
+    max-width: 1400px;
+}
