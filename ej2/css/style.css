@@ -6,3 +6,8 @@ azul texto remarcado articles + marco boton= #038ace
 amarillo marco fotos article= #fcee35
 color texto articles= #818181
 gris fondo boton= #808080*/
+
+body {
+    font-size: 1em;
+    background-color: #f8f7f2;
+}
