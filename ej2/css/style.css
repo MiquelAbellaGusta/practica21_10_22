@@ -1,19 +1,15 @@
 @import url(./reset.css);
 @import url(./trans.css);
 
-/* fondo gris= #f8f7f2
-azul texto remarcado articles + marco boton= #038ace
-amarillo marco fotos article= #fcee35
-color texto articles= #818181
-gris fondo boton= #808080*/
 
 body {
     font-size: 1em;
     background-color: #f8f7f2;
 }
 
+
 main .hero {
-    height: 85vh;
+    height: 50vh;
     background-image: url('../images/fondo.jpeg');
     background-repeat: no-repeat;
     background-position: center;
@@ -29,16 +25,16 @@ main .hero {
 
 .hero h1 {
     font-size: 3rem;
+    font-weight: bold;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-shadow: 1px 1px 1px black;
 }
 
 .hero h4 {
     font-size: 1rem;
-    letter-spacing: 1px;
+    letter-spacing: 0.7px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 30px 0px 0px 0px;
-    text-shadow: 1px 1px 1px black;
 }
 
 .hero li {
@@ -78,6 +74,7 @@ section {
 }
 
 section article {
+    width: 100%;
     color: #818181;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 0.7rem;
@@ -98,6 +95,14 @@ section article h3 span {
 
 
 section article p {
+    font-size: 0.6rem;
     padding-left: 20px;
-    line-height: 1.2rem;
+    padding-right: 20px;
+    line-height: 1rem;
+}
+
+section article img {
+    display: block;
+    width: 100%;
+    height: auto;
 }
